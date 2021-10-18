@@ -1,11 +1,11 @@
 static int
 string_length(char *str) {
-	int count = 0;
-	
+    int count = 0;
+    
     while (str && str[count]) {
-		count++;
+        count++;
     }
-	
+    
     return count;
 }
 
